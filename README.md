@@ -1,2 +1,2 @@
 # Sitetest
-testando repsonsividade e visualização do site
+testando responsividade e visualização do site
