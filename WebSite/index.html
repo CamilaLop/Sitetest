@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>Website teste</title>
+  </head>
+  <body>
+    <header class="nav">
+      <img class="logo" src="logo.png" alt="logo header" />
+      <nav>
+        <a class="active home" href="#">Home</a>
+        <a class="site" href="#">Site</a>
+        <a class="vendas" href="#">+Vendas</a>
+        <a class="metas" href="#">Metas do mês</a>
+      </nav>
+    </header>
+    <section class="parallax">
+      <h1 class="title">FARM BÚZIOS</h1>
+    </section>
+    <main>
+      <h2>Lembretes da semana</h2>
+      <div class="lembretes">
+        <p>sem lembrete</p>
+      </div>
+      <h2 class="semanal">Selecione o dia</h2>
+      <div class="container">
+        <button class="arrow-left control" aria-label="Previous image">
+          &#10094;
+        </button>
+        <button class="arrow-right control" aria-label="Previous image">
+          &#10095;
+        </button>
+        <div class="gallery-wrapper" id="img">
+          <div class="gallery">
+            <img
+              class="item current-item"
+              src="./img/segunda.png"
+              alt="segunda"
+            />
+            <img class="item" src="./img/terca.png" alt="terça" />
+            <img class="item" src="./img/quarta.png" alt="quarta" />
+            <img class="item" src="./img/quinta.png" alt="quinta" />
+            <img class="item" src="./img/sexta.png" alt="sexta" />
+            <img class="item" src="./img/sabado.png" alt="sábado" />
+            <img class="item" src="./img/domingo.png" alt="domingo" />
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <img src="./img/footer1.png" alt="" />
+    </footer>
+  </body>
+</html>
